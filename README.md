@@ -1,7 +1,5 @@
 # Office-Add-in-NIT-DGP-Vocational-Training
 
-https://github.com/Atul510/Office-Add-in-NIT-DGP-Vocational-Training
-
 ![](Aspose.Words.bbf1a702-98c5-4cbd-a51b-6e918ea002e7.001.png)
 
 **MS Office Add-in**
