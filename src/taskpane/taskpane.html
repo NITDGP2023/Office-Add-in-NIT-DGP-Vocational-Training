@@ -1,0 +1,71 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. -->
+<!-- This file shows how to design a first-run page that provides a welcome screen to the user about the features of the add-in. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoso Task Pane Add-in</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui#/. -->
+    <!-- <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css"/> -->
+
+    <!-- Template styles -->
+    <link href="taskpane.css" rel="stylesheet" type="text/css" />
+    <!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+</head>
+
+<body class="ms-font-m ms-welcome ms-Fabric">
+    <header class="ms-welcome__header ms-bgColor-neutralLighter">
+        <img width="90" height="90" src="../../assets/logo-filled.png" alt="Contoso" title="Contoso" />
+        <h1 class="ms-font-su">Welcome</h1>
+    </header>
+    <section id="sideload-msg" class="ms-welcome__main">
+        <h2 class="ms-font-xl">Please sideload your add-in to see app body.</h2>
+    </section>
+    <div id="" class="ms_main_shan">
+        <div class="loader">
+            <img src="https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.webp?cid=ecf05e47ndg4ckzapsr6d4hef3jgkkd1quq5virruxtrhbbu&rid=giphy.webp&ct=g"
+                alt="" />
+        </div>
+        <div class="ms_b_1">
+            <button type="submit" class="btn btn-secondary ms-Button1" id="run">Print Document</button>
+            <button type="submit" class="btn btn-secondary ms-Button1" id="find">Change Name</button>
+        </div>
+
+        <!-- <div class="langoption">
+            <select>
+                <option value="0">Select Lang:</option>
+                <option value="1">Afrikaans</option>
+                <option value="2">Amharic</option>
+                <option value="3">Citroen</option>
+                <option value="4">Ford</option>
+                <option value="5">Honda</option>
+                <option value="6">Jaguar</option>
+                <option value="7">Land Rover</option>
+                <option value="8">Mercedes</option>
+                <option value="9">Mini</option>
+                <option value="10">Nissan</option>
+                <option value="11">Toyota</option>
+                <option value="12">Volvo</option>
+            </select>
+            <button type="submit" class="btn btn-secondary ms-Button1" id="translate">Translate</button><br /><br />
+        </div> -->
+        
+        <div class="ms_b_2">
+            <button type="submit" class="btn btn-secondary ms-Button1" id="english">English</button><br /><br />
+            <button type="submit" class="btn btn-secondary ms-Button1" id="telugu">Telugu</button><br /><br />
+            <button type="submit" class="btn btn-secondary ms-Button1" id="hindi">Hindi</button>
+        </div>
+    </div>
+</body>
+<!-- <script src="hello.js"></script> -->
+
+</html>
